@@ -4,12 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Percetakan Firdaus</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <script src="/assets/js/main.js"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="/css/chat-box.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="assets/css/responsive-style.css" />
+    <link rel="stylesheet" href="/css/responsive-style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
     <link rel="website icon" href="assets/images/logo perc.png" type="png" />
   </head>
@@ -71,7 +72,7 @@
         <img src="assets/images/Plakat poster (FIX).png" class="slide fade" />
         <a class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-arrow-left" style="color: #ffffff"></i></a>
         <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-arrow-right" style="color: #ffffff"></i></a>
-        <script src="assets/js/banner.js"></script>
+        <script src="/js/banner.js"></script>
       </div>
     </section>
 
@@ -107,7 +108,7 @@
         <ul>
           <li>
             <a href="#">
-              <img src="assets/images/prdk-3.jpeg" alt="produk-2" />
+              <img src="assets/images/prdk-3.jpeg" alt="produk-3" />
             </a>
             <h3 style="text-align: center">Box</h3>
             <!-- <p style="text-align: center">Rp -</p> -->
@@ -117,7 +118,7 @@
         <ul>
           <li>
             <a href="#">
-              <img src="assets/images/prdk-4.jpeg" alt="produk-2" />
+              <img src="assets/images/prdk-4.jpeg" alt="produk-4" />
             </a>
             <h3 style="text-align: center">Buku <span style="font-size: 10px">(Custom)</span></h3>
             <!-- <p style="text-align: center">Rp -</p> -->
@@ -127,7 +128,7 @@
         <ul>
           <li>
             <a href="#">
-              <img src="assets/images/prdk-5.jpeg" alt="produk-2" />
+              <img src="assets/images/prdk-5.jpeg" alt="produk-5" />
             </a>
             <h3 style="text-align: center">X-Banner</h3>
             <!-- <p style="text-align: center">Rp -</p> -->
@@ -137,7 +138,7 @@
         <ul>
           <li>
             <a href="#">
-              <img src="assets/images/prdk-6.jpeg" alt="produk-2" />
+              <img src="assets/images/prdk-6.jpeg" alt="produk-6" />
             </a>
             <h3 style="text-align: center">Undangan</h3>
             <!-- <p style="text-align: center">Rp -</p> -->
@@ -147,7 +148,7 @@
         <ul>
           <li>
             <a href="#">
-              <img src="assets/images/prdk-7.jpeg" alt="produk-2" />
+              <img src="assets/images/prdk-7.jpeg" alt="produk-7" />
             </a>
             <h3 style="text-align: center">Stiker <span style="font-size: 10px">(Custom)</span></h3>
             <!-- <p style="text-align: center">Rp -</p> -->
@@ -192,6 +193,24 @@
     </section>
     <script src="assets/js/slider_produk.js"></script>
     <img src="shape-down.svg" class="shape2" />
+
+    <!-- chat-box settings
+    <div class="chat-container">
+      <div class="chat-box" id="chatBox">
+        <div class="chat-header">
+          <h3>Bot Percetakan Firdaus</h3>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+          <div class="message bot">Halo! Selamat datang di website Percetakan Firdaus, ada yang bisa mimin bantu ?</div>
+        </div>
+        <div class="chat-input">
+          <input type="text" id="userInput" placeholder="Ketik pesan Anda di sini..." />
+          <button onclick="sendMessage()">Kirim</button>
+        </div>
+      </div>
+    </div> -->
+
+    <script src="/js/chat-box.js"></script>
 
     <!-- Arrow Up -->
     <div id="scrollToTop" class="btn-scroll-top">
